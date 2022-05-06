@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
+import WithRouterSample from "./WithRouterSample";
 
 const Profiles = () => {
   return (
@@ -15,6 +16,7 @@ const Profiles = () => {
       </ul>
 
       <Outlet />
+      <WithRouterSample />
     </div>
   );
 };
